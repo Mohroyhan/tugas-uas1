@@ -1,0 +1,45 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'vendor/bootstrap/css/bootstrap.css'  %}">
+    <title>Royhan zufwani</title>
+</head>
+<body style="background-color:cadetblue;">
+    <nav class="navbar navbar-expand-lg bg-cadetblue">
+        <div class="container">
+          <a class="navbar-brand" href="#Navbar">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+      <section id="Navbar">
+        <div class="container-fluid py-2">
+        <h1 class="text-center fw-lighter" style="color:black;"><strong>PROGRAMMING</strong></h1>
+        <p class="text-center font-monospace" style="color:black;">And CODING</p>
+                <img src="{% static 'images/roy.png' %}" class="rounded mx-auto d-block ps-5 img-fluid" style="width:40%;">
+      </section>
+
+
+      <section>
+        <div class="container py-3">
+            <p class="text-center fw-normal" style="color:black;">Program Is a design of structures, designs, schematic codes, and other forms with which are arranged according to the flow of the algorithm with the aim of simplifying a problem.</p>
+        </div>
+      </section>
+
+</body>
+</html>
